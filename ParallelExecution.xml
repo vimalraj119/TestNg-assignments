@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="5" parallel="classes" verbose="5">
+  <test  name="Salesforce">
+    <classes>
+      <class name="salesforce.EditWorkType"/>
+      <class name="salesforce.CreateOpportunity"/>
+      <class name="salesforce.CreateLegalEntity"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test  name="Salesforce2">
+    <classes>
+      <class name="salesforce.EditOpportunity"/>
+      <class name="salesforce.EditLegalEntity"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
